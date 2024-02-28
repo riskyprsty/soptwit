@@ -1,8 +1,21 @@
 import puppeteer from "puppeteer-extra";
-import fs from "fs/promises";
+import fs from "fs";
 import path from "path";
 import watch from "node-watch";
 import { csvformatter } from "./utils/format.js";
+
+// folder check
+const jsondir = "./resultjson";
+if (!fs.existsSync(jsondir)) {
+  console.log("[+] Create folder resultjson");
+  fs.mkdirSync(jsondir);
+}
+
+const csvdir = "./resultcsv";
+if (!fs.existsSync(csvdir)) {
+  console.log("[+] Create folder resultcsv");
+  fs.mkdirSync(csvdir);
+}
 
 // delay func
 function delay(time) {
