@@ -25,7 +25,7 @@ export const loginShopee = async (page) => {
     //     deviceScaleFactor: sf,
     //   });
     let product = [];
-    const cookiesString = fs.readFileSync(path.resolve('./cookies1.json'));
+    const cookiesString = fs.readFileSync(path.resolve('./cookies_sopi.json'));
     const cookies = JSON.parse(cookiesString);
     await page.setCookie(...cookies);
 
@@ -141,7 +141,7 @@ export const loginShopee = async (page) => {
           console.log(updatedCsvResult);
           // await browser.close();
           fs.unlinkSync(name);
-          process.exit();
+          // process.exit();
         }
       },
     );

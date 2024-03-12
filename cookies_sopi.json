@@ -1,0 +1,210 @@
+[
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1964382284.1708447682",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1716223682,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "SPC_F",
+    "value": "SolsGpX5uMqSdLseJhtkP5fWWaZ8E8Mv",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1743007682.817592,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "REC_T_ID",
+    "value": "cf9c0363-d00f-11ee-8e85-22c451adb66c",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1743007682.817601,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.2.1708447682866.1151414429",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1718006314,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SPC_CLIENTID",
+    "value": "U29sc0dwWDV1TXFTlrjgjzimmiovsnbd",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1743007698.076157,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_gcl_aw",
+    "value": "GCL.1708447698.EAIaIQobChMIypTIyK-6hAMVw6VmAh1AMwLYEAAYASAAEgLbQ_D_BwE",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1716223698,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_gac_UA-61904553-8",
+    "value": "1.1708447700.EAIaIQobChMIypTIyK-6hAMVw6VmAh1AMwLYEAAYASAAEgLbQ_D_BwE",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1716223700,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_med",
+    "value": "refer",
+    "domain": ".affiliate.shopee.co.id",
+    "path": "/",
+    "expires": 1711039777,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_med",
+    "value": "affiliates",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1712822304,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "SPC_SI",
+    "value": "bNnmZQAAAAAxcHMwWWJydgpYiAAAAAAAOGJZMWEyTFI=",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1710316706.114658,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "AMP_TOKEN",
+    "value": "%24NOT_FOUND",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1710233898,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.3.1539278439.1710230299",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1710316713,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_dc_gtm_UA-61904553-8",
+    "value": "1",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1710230358,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "SPC_EC",
+    "value": ".NEFVclNaalh4SWpZQnlORrmAFXZm49IUT2MKVf0QzuyiQxuLy1ny6T5Eb7n4nUQHdoUFqsobRj/0JyhISg7X+CBWhNIE/XVUbU/iTqnu4TfqXUS6/CpiIKfPIGGOfBBX4pWvlyveXkwuVoYTLTSUXirJct75HAGJ+AtrGI3TkD6adnyiURDLLO/sL7M/rNZ6eDyvq94V0wtOV1gcjyfG5w==",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114707,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "SPC_ST",
+    "value": ".NEFVclNaalh4SWpZQnlORrmAFXZm49IUT2MKVf0QzuyiQxuLy1ny6T5Eb7n4nUQHdoUFqsobRj/0JyhISg7X+CBWhNIE/XVUbU/iTqnu4TfqXUS6/CpiIKfPIGGOfBBX4pWvlyveXkwuVoYTLTSUXirJct75HAGJ+AtrGI3TkD6adnyiURDLLO/sL7M/rNZ6eDyvq94V0wtOV1gcjyfG5w==",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114675,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "SPC_U",
+    "value": "330023784",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114693,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "SPC_R_T_ID",
+    "value": "pA422LXuIvyFU4T5mDYUcHxQPPkfnOkxWvmkyhz6Gc9vDgguZo1K/AeSUUroMAGikcjtV1mMG6ixKEqQBsD5y9qAr9pnTfh0VYPFT6+kpnlyse4OuqLwtfGu7/H/cguQCLSv2XqTnzrZMuG7PZ+C+VxhQb6UAWGHuFieET3qJHY=",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.11472,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "SPC_R_T_IV",
+    "value": "Tm00ZHRxSW90TWg3T0JCRg==",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114733,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "SPC_T_ID",
+    "value": "pA422LXuIvyFU4T5mDYUcHxQPPkfnOkxWvmkyhz6Gc9vDgguZo1K/AeSUUroMAGikcjtV1mMG6ixKEqQBsD5y9qAr9pnTfh0VYPFT6+kpnlyse4OuqLwtfGu7/H/cguQCLSv2XqTnzrZMuG7PZ+C+VxhQb6UAWGHuFieET3qJHY=",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114579,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "SPC_T_IV",
+    "value": "Tm00ZHRxSW90TWg3T0JCRg==",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790306.114642,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "_ga_SW6D8G0HXK",
+    "value": "GS1.1.1710230298.6.1.1710230313.45.0.0",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790313.838238,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.3.296341352.1708447688",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1744790313.932305,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "language",
+    "value": "id",
+    "domain": "affiliate.shopee.co.id",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  }
+]

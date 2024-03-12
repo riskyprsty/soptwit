@@ -4,7 +4,7 @@ import path from 'path';
 
 const csvPath = path.resolve('./resultcsv');
 
-function getFiles(dir, files = []) {
+export async function getFiles(dir, files = []) {
   try {
     const fileList = fs.readdirSync(dir);
     for (const file of fileList) {
@@ -20,7 +20,7 @@ function getFiles(dir, files = []) {
     console.error(`ERROR in getFiles : ${err}`);
   }
 }
-
+//console.log(await getFiles('./img'));
 export async function csvformatter(filename) {
   try {
     const csvFilePath = filename;

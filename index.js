@@ -1,8 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import fs from 'fs';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import watch from 'node-watch';
-import {csvformatter} from './utils/format.js';
+// import {getCookiesTwitter} from './utils/getCookiesTwitter.js';
+import {postTwitter} from './utils/postTwitter.js';
 import {loginShopee} from './utils/shopee.js';
 let initialized = false;
 let page;
@@ -43,7 +42,7 @@ export async function initialize() {
 
   //puppeteer.use(StealthPlugin());
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
     defaultViewport: null,
     args: ['--force-device-scale-factor' && 'start-maximized'],
     devtools: false,
@@ -72,4 +71,5 @@ await initialize();
 if (initialized == true) {
   // await tesKoneksi(page);
   await loginShopee(page);
+  await postTwitter(page);
 }

@@ -6,7 +6,7 @@ import path from 'path';
 let initialized = false;
 let page;
 
-// console.log('wes kah,', initialized);
+console.log('wes kah,', initialized);
 
 // delay func
 function delay(time) {
@@ -168,13 +168,13 @@ async function tesKoneksi(page) {
   console.log(!isInitialized());
 }
 
-export async function initialize() {
-  console.log('Membuat instance puppeteer.');
+async function initialize() {
+  console.log('[bandar_sopi] Membuat instance puppeteer.');
 
   puppeteer.use(StealthPlugin());
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--force-device-scale-factor', '--disable-gpu'],
+    args: ['--no-sandbox', '--disable-gpu'],
   });
 
   page = await browser.newPage();
@@ -190,7 +190,7 @@ export async function initialize() {
   //        const userAgent = 'CharacterAI/1.0.0 (iPhone; iOS 14.4.2; Scale/3.00)';
   //        await page.setUserAgent(userAgent);
 
-  console.log('Puppeteer - Done with setup');
+  console.log('[bandar_sopi] Puppeteer - Done with setup');
   initialized = true;
   console.log(initialized);
 }

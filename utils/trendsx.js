@@ -38,3 +38,4 @@ export const trendJoin = async () => {
     console.error(`Error! in trend JOIN : ${err}`);
   }
 };
+console.log(await trendJoin());
